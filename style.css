@@ -41,7 +41,7 @@ nav {
 .nav_link {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 .nav_link li a {
   text-decoration: none;
@@ -349,7 +349,7 @@ nav {
   .features-container {
     
     gap: 2rem;
-    padding: 0px 7rem;
+    /* padding: 0px 7rem; */
   }
    .about-two-banner {
     height: auto;

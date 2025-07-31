@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 :root {
   --primary-color: #c3205c;
   --primary-color-light: #fffcfa;
@@ -29,13 +29,19 @@ nav {
   padding: 15px 10%;
   background-color: var(--primary-color);
 }
-.logo a {
-  font-size: 28px;
+.logoo{
+  font-family: "Allison", cursive;
+
+  font-size: 4rem;
   font-weight: bold;
   color: var(--primary-color-light);
   text-decoration: none;
+  
+
+
 }
-.logo a span {
+
+.logoo  span {
   color: var(--text-dark);
 }
 .nav_link {
@@ -387,9 +393,15 @@ nav {
   }
 
   .nav_link {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     gap: 15px;
+  }
+  .btn{
+    display: none;
+  }
+  .logoo{
+    font-size: 4rem;
   }
 
   .hero_container {
@@ -454,6 +466,7 @@ nav {
   .footer {
     font-size: 0.9rem;
   }
+}
   @media screen and (max-width: 468px) {
     .features-container {
     flex-direction: column;
@@ -465,4 +478,3 @@ nav {
   }
 
   }
-}
